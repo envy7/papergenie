@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Papergenie | WebDev Labs, NIT Surat</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+     <link rel="stylesheet" type="text/css" href="/stylesheets/materialize.css">
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="/javascripts/materialize.min.js"></script>
+	<script type="text/javascript" src="/javascript/home.js"></script>
+		<script type="text/javascript">
+
+</script>
+  </head>
+
+  <style type="text/css">
+  .modalDialog {
+  text-align: left;
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  color:black;
+  overflow: auto;
+  width: 90%;
+  height: 70%;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #5F7EAD;
+  
+}
+
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: 2px;
+  text-align: center;
+  top: 0px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #1ABC9C; }
+  </style>
+
+
+  <body style="background-color:#132157">
+     
+	<div class="parallax-container">
+		<div class="row"><div class="col m12 l12 s12 center" style="padding-top:20px"><img class="responsive-img"  src="/images/svnit.png"></div></div>
+		<div class="row"><div class="col m12 l12 s12 center"><img class="responsive-img"  src="/images/papgenlogo.png"></div></div>
+		<div class="row"><div class="col m12 l12 s12 center"><img class="responsive-img"  src="/images/info.png"></div></div>
+      
+        
+        
+        <div class="row z-depth-5" style="background-color:#132157; width:200px;" >
+        	<form class="col s12">
+        		<div class="container ">
+        			<div class="input-field">
+        				<input style="color:white;" id="pass" type="text" class="validate center-align" >
+        				<label class="active " for="pass" style="font-size:12px">Enter Roll Number:</label>
+        			</div>
+        		</div>
+        	</form>
+        </div>
+
+      
+       <script type="text/javascript">
+         $(document).ready(function(){
+          confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added.");
+
+
+          
+          
+          $('.input-field').keydown(function(event){
+            if(event.keyCode == 13){
+            $('#button').click();
+          }
+        });
+          
+    $('#button').click(function(){
+    var x;
+    x=  $('#pass').val().toLowerCase();
+    console.log(x);
+    var y=x.substring(1,3);
+    var z=x.substring(3,5);
+    var a=x.substring(0,1);
+    var d=new Date();
+    var n=d.getMonth();
+    if(n>=6)
+    {
+       switch(y)
+    {
+      case '11':
+      switch(z){
+        case 'ma':
+         $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+
+      break;
+
+      case 'ph':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'cy':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+      }
+      break;
+      
+      case '12':
+      switch(z){
+        case 'ma':
+         $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+
+      break;
+
+      case 'ph':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'cy':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+        case 'co':
+         $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'me':
+        $("#button").attachEvent("onclick", window.open("https://www.dropbox.com/s/e0t5do7zfjyvol6/btechmech7.rar?dl=1"));
+      break;
+
+      case 'ce':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'ec':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'ee':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'ch':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+      }
+      break;
+
+      case '13':
+      switch(z){
+        case 'ma':
+         $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+
+      break;
+
+      case 'ph':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'cy':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+        case 'co':
+         $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'me':
+      $("#button").attachEvent("onclick", window.open("https://www.dropbox.com/s/jgu4sg66gh35az7/btechmech5.rar?dl=1"));
+      break;
+
+      case 'ce':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'ec':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'ee':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+      
+      case 'ch':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+      }
+      break;
+
+      case '14':
+      switch(z){
+        case 'ma':
+        $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+
+      break;
+
+      case 'ph':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'cy':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+        case 'co':
+     $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+
+
+      break;
+
+      case 'me':
+        $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/ghqemt8fkj4jhii/btechmech3.rar?dl=1"));
+      break;
+
+      case 'ce':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'ec':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+
+      case 'ee':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+      
+      case 'ch':
+       $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+      break;
+      }
+      break;
+
+      case '15':
+      switch(a){
+        case 'u':
+         $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+        break;
+
+        case 'i':
+         $("#button").attachEvent("onClick", confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added."));
+        break;
+      }
+      break;
+
+
+    }; 
+    }
+  else
+  {
+     switch(y)
+    {
+      case '11':
+      switch(z){
+        case 'ma':
+        $("#button").attachEvent("onclick", window.open("https://www.facebook.com"));
+
+      break;
+
+      case 'ph':
+      break;
+
+      case 'cy':
+      break;
+      }
+      break;
+      
+      case '12':
+      switch(z){
+        case 'ma':
+        $("#button").attachEvent("onclick", window.open("https://www.facebook.com"));
+
+      break;
+
+      case 'ph':
+      break;
+
+      case 'cy':
+      break;
+
+        case 'co':
+      break;
+
+      case 'me':
+      break;
+
+      case 'ce':
+      break;
+
+      case 'ec':
+      break;
+
+      case 'ee':
+      break;
+
+      case 'ch':
+      break;
+      }
+      break;
+
+      case '13':
+      switch(z){
+        case 'ma':
+        $("#button").attachEvent("onclick", window.open("https://www.facebook.com"));
+
+      break;
+
+      case 'ph':
+      break;
+
+      case 'cy':
+      break;
+
+        case 'co':
+      break;
+
+      case 'me':
+      break;
+
+      case 'ce':
+      break;
+
+      case 'ec':
+      break;
+
+      case 'ee':
+      break;
+      
+      case 'ch':
+      break;
+      }
+      break;
+
+      case '14':
+      switch(z){
+        case 'ma':
+        $("#button").attachEvent("onclick", window.open("https://www.facebook.com"));
+
+      break;
+
+      case 'ph':
+      break;
+
+      case 'cy':
+      break;
+
+        case 'co':
+     $("#button").attachEvent("onclick", window.open("https://www.google.com"));
+
+
+      break;
+
+      case 'me':
+     
+      break;
+
+      case 'ce':
+      break;
+
+      case 'ec':
+      break;
+
+      case 'ee':
+      break;
+      
+      case 'ch':
+      break;
+      }
+      break;
+
+      case '15':
+      switch(a){
+        case 'u':
+        break;
+
+        case 'i':
+        break;
+      }
+      break;
+
+
+    }; 
+  }
+  });
+
+
+   
+});
+</script>
+
+
+		<div class="row"><div class="col m12 l12 s12 center">
+
+
+		  <a class="btn-floating btn-large waves-effect z-depth-5" style="background-color:#132157"><i id="button" class="material-icons">get_app</i></a>
+    </div></div>
+		
+        <div class="parallax">
+			<img class="responsive-img" src="/images/10.jpg">
+		</div>
+	 </div>
+ 
+	  <div style="background-color:#132157">
+	 	<div class="row" style="color:white;" align="center">
+	 	   <div class="col m4 l4 s4 " align="center">
+        
+        <h6   ><a href="https://www.facebook.com/webdevlabs/" style="color:#1ABC9C" target="_new">Powered by<br><img height="85px"  src="/images/web2.png"></a></h6> 
+      
+      
+      
+    </div>
+
+     <div class="col m4 l4 s4" style="padding-top:35px;">
+          <a class=" btn waves-effect  z-depth-4" id="modal" style="background-color:#1F2F6B;"  href="#openModal">FAQ</a>
+           <!-- Modal Structure -->
+                      
+
+<div id="openModal" class="modalDialog"  >
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+    <h2 align="center">FAQ</h2>
+    <p>1.<i> How to contribute?</i></p>
+    <p>To contribute papers of previous examinations in this initiative contact:
+       <br>
+        Jay Kachhadia:8487011283 or
+        <br>
+        Abhirup Panja:9725627675
+    </p>
+    
+    <p>2.<i> Which links have been uploaded?</i></p>
+    <p>last year's first sem papers for mechanical department from second to final year have been added more will be uploaded soon with your help</p>
+
+  </div>
+</div>
+  
+   </div>
+
+ 
+          
+
+
+	 	   	 <div class="col m4 l4 s4"><h6 style="color:#1ABC9C" >Contact us </h6> <a href="mailto:mail@webdevlabs.in" style="color:#1ABC9C"><i class=" medium material-icons">email</i></a></h6></div>
+	    
+	    </div>
+ 	 </div>
+ 	 
+  
+
+        
+  </script>
+
+
+	 
+     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="/javascript/materialize.min.js"></script>
+
+	
+</body>
+
+</html> 
+   
