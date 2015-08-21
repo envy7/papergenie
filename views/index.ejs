@@ -17,6 +17,11 @@
   </head>
 
   <style type="text/css">
+
+  p{
+     font-size:18px;
+  }
+
   .modalDialog {
   text-align: left;
   position: fixed;
@@ -25,7 +30,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.8);
   z-index: 99999;
   opacity:0;
   -webkit-transition: opacity 200ms ease-in;
@@ -40,7 +45,7 @@
 }
 
 .modalDialog > div {
-  color:black;
+  color:white;
   overflow: auto;
   width: 90%;
   height: 70%;
@@ -48,7 +53,7 @@
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
-  background: #5F7EAD;
+  background: #132157;
   
 }
 
@@ -98,7 +103,7 @@
       
        <script type="text/javascript">
          $(document).ready(function(){
-          confirm("This is the beta version of the web app.For demo links for mechanical department from second to final year have been added.");
+          $('#modal').click();
 
 
           
@@ -451,8 +456,9 @@
 <div id="openModal" class="modalDialog"  >
   <div>
     <a href="#close" title="Close" class="close">X</a>
-    <h2 align="center">FAQ</h2>
-    <p>1.<i> How to contribute?</i></p>
+   <div class="z-depth-3" style="background-color:#30479c"> <h2 style="color:#1ABC9C;font-size:40px;padding:5px;" align="center">FAQ</h2></div>
+
+  <div>  <h3 style="color:#1ABC9C">How to contribute?</h3>
     <p>To contribute papers of previous examinations in this initiative contact:
        <br>
         Jay Kachhadia:8487011283 or
@@ -460,8 +466,8 @@
         Abhirup Panja:9725627675
     </p>
     
-    <p>2.<i> Which links have been uploaded?</i></p>
-    <p>Last year's first sem papers for mechanical department from second to final year have been added. More will be uploaded soon with your help</p>
+    <h3 style="color:#1ABC9C">Which links have been uploaded?</h3>
+    <p>Last year's first sem papers for mechanical department from second to final year have been added. More will be uploaded soon with your help</p></div>
 
   </div>
 </div>
