@@ -118,6 +118,16 @@
       
        <script type="text/javascript">
          $(document).ready(function(){
+          $('#modal').click(function(){
+            $('body').css('overflow','hidden');
+           
+          })
+          $('.close').click(function(){
+            $('body').css('overflow','scroll');
+           
+          })
+
+
            
           
           $('.input-field').keydown(function(event){
@@ -450,7 +460,7 @@
 <div class="row"align="center" >
          
           <a class=" btn waves-effect  z-depth-4"  style="background-color:#132157;"  href="https://script.google.com/macros/s/AKfycbyepm3EsvZQMaJJcz-mOZl0N6CuUM1WgCqKVXJCJbUM7B9yldU/exec">Contribute Papers   
-            <i class=" medium material-icons">  publish</i>
+            <i class=" medium material-icons">publish</i>
           </a>
         </div>   
 
