@@ -2093,6 +2093,14 @@ img.responsive-img, video.responsive-video {
   overflow: hidden;
   height: 700px; }
 
+  @media only screen and (max-width : 2000px){
+  .parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 850px; } 
+
+}  
+
 @media only screen and (max-width : 1550px){
   .parallax-container {
   position: relative;
