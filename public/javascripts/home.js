@@ -1,5 +1,12 @@
 
          $(document).ready(function(){
+
+
+window.setTimeout("Materialize.toast('First year papers uploaded!', 3500,'rounded')", 1500);
+window.setTimeout("Materialize.toast('Second year papers uploaded!', 3500,'rounded')", 2400);
+window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3300);
+          
+          
           $('#modal').click(function(){
             $('body').css('overflow','hidden');
            
@@ -34,16 +41,16 @@
       case '11':
       switch(z){
         case 'ma':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
 
       break;
 
       case 'ph':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'cy':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
       }
       break;
@@ -51,20 +58,20 @@
       case '12':
       switch(z){
         case 'ma':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
 
       break;
 
       case 'ph':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'cy':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
         case 'co':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'me':
@@ -72,19 +79,19 @@
       break;
 
       case 'ce':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'ec':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'ee':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'ch':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
       }
       break;
@@ -92,20 +99,20 @@
       case '13':
       switch(z){
         case 'ma':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
 
       break;
 
       case 'ph':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'cy':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
         case 'co':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'me':
@@ -113,19 +120,19 @@
       break;
 
       case 'ce':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'ec':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'ee':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
       
       case 'ch':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
       }
       break;
@@ -133,16 +140,16 @@
       case '14':
       switch(z){
         case 'ma':
-        $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+        $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
 
       break;
 
       case 'ph':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
       case 'cy':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
       break;
 
         case 'co':
@@ -180,7 +187,7 @@
         break;
 
         case 'i':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of Mechanical Department only(2nd year onwards). Please contribute for your Department."));
+         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
         break;
       }
       break;

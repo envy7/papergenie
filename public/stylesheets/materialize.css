@@ -5699,7 +5699,7 @@ small {
   position: relative;
   max-width: 100%;
   height: 48px;
-  line-height: 48px;
+  line-height: 20px;
   background-color: #323232;
   padding: 0 25px;
   font-size: 1.1rem;
@@ -5720,10 +5720,12 @@ small {
     margin: 0;
     margin-left: 3rem; }
   .toast.rounded {
+    background-color:#132157;
+  color:#1ABC9C;
     border-radius: 24px; }
   @media only screen and (max-width : 600px) {
     .toast {
-      width: 100%;
+      width:80%;
       border-radius: 0; } }
   @media only screen and (min-width : 601px) and (max-width : 992px) {
     .toast {
