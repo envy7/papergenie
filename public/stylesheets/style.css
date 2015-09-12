@@ -1,3 +1,11 @@
+.waves-effect.waves-me .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: #30479c;
+    }
+
+
+
 .center{
 	margin: 0 auto;
 }
@@ -6,6 +14,7 @@
 	background-color: white;
 	height: 60px;
 	width:150px;
+
 
 }
 
