@@ -1,5 +1,6 @@
 
          $(document).ready(function(){
+         
 
 
 window.setTimeout("Materialize.toast('First year papers uploaded!', 3500,'rounded')", 1500);
@@ -13,6 +14,10 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3300);
           });
           $('.close').click(function(){
             $('body').css('overflow','scroll');
+           
+          });
+          $('#ldrbrd').click(function(){
+            $('body').css('overflow','hidden');
            
           });
 
@@ -187,7 +192,7 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3300);
         break;
 
         case 'i':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+         $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/p7ll8v41hjz4g5h/int%20m.sc%201st%20year.zip?dl=1"));
         break;
       }
       break;
@@ -335,3 +340,5 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3300);
 
    
 });
+
+
