@@ -3,9 +3,9 @@
          
 
 
-window.setTimeout("Materialize.toast('First year papers uploaded!', 3500,'rounded')", 1500);
-window.setTimeout("Materialize.toast('Second year papers uploaded!', 3500,'rounded')", 2400);
-window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3300);
+window.setTimeout("Materialize.toast('First year papers uploaded!', 3500,'rounded')", 1900);
+window.setTimeout("Materialize.toast('Second year papers uploaded!', 3500,'rounded')", 2800);
+window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
           
           
           $('#modal').click(function(){
