@@ -1,6 +1,13 @@
+hr{
+  
+  border-color: #1ABC9C;
+  border-width: 2px;
+}
+
+
+
+
 .waves-effect.waves-me .waves-ripple {
-     /* The alpha value allows the text and background color
-     of the button to still show through. */
       background-color: #30479c;
     }
 
