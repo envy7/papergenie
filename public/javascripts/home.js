@@ -63,12 +63,12 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
       case '12':
       switch(z){
         case 'ma':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+         $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/09zlutoq28xkaft/in%20M.sc%20fourth%20year%20maths.zip?dl=1"));
 
       break;
 
       case 'ph':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/csplho1hy0qou7y/in%20M.sc%20fourth%20year%20physics.zip?dl=0"));
       break;
 
       case 'cy':
@@ -104,7 +104,7 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
       case '13':
       switch(z){
         case 'ma':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+         $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/e9kkv6t019p8dl7/in%20M.sc%20third%20year%20maths.zip?dl=1"));
 
       break;
 
@@ -113,7 +113,7 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
       break;
 
       case 'cy':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/4u3tvyjdejlgag9/in%20M.sc%20third%20year%20chemistry.zip?dl=1"));
       break;
 
         case 'co':
@@ -145,16 +145,16 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
       case '14':
       switch(z){
         case 'ma':
-        $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+        $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/a780n1864p2f1zn/Int%20Msc%202nd%20year%20maths.zip?dl=1"));
 
       break;
 
       case 'ph':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/321cctq8xf60b9c/Int%20Msc%202nd%20year%20physics.zip?dl=1"));
       break;
 
       case 'cy':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/hndpiv8712dasvw/Int%20Msc%202nd%20year%20chemistry.zip?dl=1"));
       break;
 
         case 'co':
