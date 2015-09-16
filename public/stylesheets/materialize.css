@@ -6540,7 +6540,7 @@ form p:last-child {
     display: inline-block;
     height: 25px;
     line-height: 25px;
-    font-size: 1rem;
+    font-size: 25px;
     -webkit-user-select: none;
     /* webkit (safari, chrome) browsers */
     -moz-user-select: none;
@@ -6590,8 +6590,8 @@ form p:last-child {
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%; }
 [type="checkbox"]:checked:disabled + label:before {
-  border-right: 2px solid rgba(0, 0, 0, 0.26);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.26); }
+  border-right: 2px solid #26a69a;
+  border-bottom: 2px solid #26a69a; }
 
 /* Indeterminate checkbox */
 [type="checkbox"]:indeterminate + label:before {

@@ -3,10 +3,10 @@
          
 
 
-window.setTimeout("Materialize.toast('First year papers uploaded!', 3500,'rounded')", 1900);
-window.setTimeout("Materialize.toast('Second year papers uploaded!', 3500,'rounded')", 2800);
-window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
-          
+//window.setTimeout("Materialize.toast('First year papers uploaded!', 3500,'rounded')", 1900);
+//window.setTimeout("Materialize.toast('Second year papers uploaded!', 3500,'rounded')", 2800);
+//window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
+         
           
           $('#modal').click(function(){
             $('body').css('overflow','hidden');
@@ -17,6 +17,10 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
            
           });
           $('#ldrbrd').click(function(){
+            $('body').css('overflow','hidden');
+           
+          });
+          $('#papers').click(function(){
             $('body').css('overflow','hidden');
            
           });
