@@ -4,7 +4,9 @@ hr{
   border-width: 1px;
 }
 
-
+form h2{
+  font-size: 38px;
+}
 
 
 .waves-effect.waves-me .waves-ripple {
