@@ -117,27 +117,27 @@ window.setTimeout("Materialize.toast('Best of luck!', 3500,'rounded')", 3700);
       break;
 
         case 'co':
-         $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+         $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/dwljdqrla56x2kz/comps3.zip?dl=1"));
       break;
 
       case 'me':
-      $("#button").attachEvent("onclick", window.open("https://www.dropbox.com/s/jgu4sg66gh35az7/btechmech5.rar?dl=1"));
+      $("#button").attachEvent("onclick", window.open("https://www.dropbox.com/s/9xa56svws84dod3/mech3.zip?dl=1"));
       break;
 
       case 'ce':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/iwpzwf8slctko4y/civil3.zip?dl=1"));
       break;
 
       case 'ec':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/edbxjto7cxdhql1/tronix3.zip?dl=1"));
       break;
 
       case 'ee':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/rlxetotc9ieqm6x/electr3.zip?dl=1"));
       break;
       
       case 'ch':
-       $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
+       $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/27xfciy3lzts2je/chem3.zip?dl=1"));
       break;
       }
       break;
