@@ -47,7 +47,7 @@
     {
        switch(y)
     {
-      case '11':
+      case '12':
       switch(z){
         case 'ma':
          $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
@@ -64,7 +64,7 @@
       }
       break;
       
-      case '12':
+      case '13':
       switch(z){
         case 'ma':
          $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/09zlutoq28xkaft/in%20M.sc%20fourth%20year%20maths.zip?dl=1"));
@@ -105,7 +105,7 @@
       }
       break;
 
-      case '13':
+      case '14':
       switch(z){
         case 'ma':
          $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/e9kkv6t019p8dl7/in%20M.sc%20third%20year%20maths.zip?dl=1"));
@@ -146,7 +146,7 @@
       }
       break;
 
-      case '14':
+      case '15':
       switch(z){
         case 'ma':
         $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/a780n1864p2f1zn/Int%20Msc%202nd%20year%20maths.zip?dl=1"));
@@ -189,7 +189,7 @@
       }
       break;
 
-      case '15':
+      case '16':
       switch(a){
         case 'u':
          $("#button").attachEvent("onclick", window.open("https://www.dropbox.com/s/ju3y523uza6qjw0/first%20year.zip?dl=1"));
