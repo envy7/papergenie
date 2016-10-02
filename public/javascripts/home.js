@@ -42,12 +42,15 @@
     var z=x.substring(3,5);
     var a=x.substring(0,1);
     var d=new Date();
+    year = d.getFullYear();
+    year = year.toString();
+    year = year.substring(2)
     var n=d.getMonth();
     if(n>=6)
     {
        switch(y)
     {
-      case '11':
+      case 'year-4':
       switch(z){
         case 'ma':
          $("#button").attachEvent("onClick", confirm("PaperGenie is having Past Year Examination Papers of first year and second year of all departments. Please contribute for your Department."));
@@ -64,7 +67,7 @@
       }
       break;
       
-      case '12':
+      case 'year-3':
       switch(z){
         case 'ma':
          $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/09zlutoq28xkaft/in%20M.sc%20fourth%20year%20maths.zip?dl=1"));
@@ -105,7 +108,7 @@
       }
       break;
 
-      case '13':
+      case 'year-2':
       switch(z){
         case 'ma':
          $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/e9kkv6t019p8dl7/in%20M.sc%20third%20year%20maths.zip?dl=1"));
@@ -146,7 +149,7 @@
       }
       break;
 
-      case '14':
+      case 'year-1':
       switch(z){
         case 'ma':
         $("#button").attachEvent("onClick", window.open("https://www.dropbox.com/s/a780n1864p2f1zn/Int%20Msc%202nd%20year%20maths.zip?dl=1"));
@@ -189,7 +192,7 @@
       }
       break;
 
-      case '15':
+      case 'year':
       switch(a){
         case 'u':
          $("#button").attachEvent("onclick", window.open("https://www.dropbox.com/s/ju3y523uza6qjw0/first%20year.zip?dl=1"));
